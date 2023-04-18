@@ -492,6 +492,7 @@ do
         Library.Theme.Rem = Utility.AddImage("piehaxx/Assets/UI/Rem.png", "https://i.imgur.com/ykbRkhJ.png")
         Library.Theme.Violet = Utility.AddImage("piehaxx/Assets/UI/Violet.png", "https://i.imgur.com/7B56w4a.png")
         Library.Theme.Asuka = Utility.AddImage("piehaxx/Assets/UI/Asuka.png", "https://i.imgur.com/3hwztNM.png")
+        Library.Theme.Pie = Utility.AddImage("piehaxx/Assets/UI/Pie.png", "https://i.imgur.com/3hwztNM.png")
         --
         Window.SetText(1, "Checking Assets")
         --
@@ -861,8 +862,8 @@ do
                 Name == "Astolfo" and Library.Theme.Astolfo or
                 Name == "Aiko" and Library.Theme.Aiko or
                 Name == "Rem" and Library.Theme.Rem or
-                Name == "Violet" and Library.Theme.Violet or
-                Name == "Asuka" and Library.Theme.Asuka
+                Name == "Asuka" and Vector2.new(415, 601) or
+                Name == "Pie" and Vector2.new(415, 601)
             )
 
             Anime.Size = (
@@ -870,7 +871,8 @@ do
                 Name == "Aiko" and Vector2.new(390, 630) or
                 Name == "Rem" and Vector2.new(390, 639) or
                 Name == "Violet" and Vector2.new(1029 / 3, 1497 / 3) or
-                Name == "Asuka" and Vector2.new(415, 601)
+                Name == "Asuka" and Vector2.new(415, 601) or
+                Name == "Pie" and Vector2.new(415, 601)
             )
 
             Anime.Position = Vector2.new(Camera.ViewportSize.X - 400, Camera.ViewportSize.Y - Anime.Size.Y)
@@ -4098,7 +4100,7 @@ do
             
             ClickGUI:Dropdown({
                 Title = "Anime",
-                List = {"Astolfo", "Violet", "Rem", "Aiko", "Asuka"},
+                List = {"Astolfo", "Violet", "Rem", "Aiko", "Asuka", "Pie"},
                 Default = "Astolfo",
                 Callback = function(Name)
                     Window.ChangeAnime(Name)
