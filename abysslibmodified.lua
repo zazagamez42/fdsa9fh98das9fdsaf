@@ -863,7 +863,7 @@ do
                 Name == "Aiko" and Library.Theme.Aiko or
                 Name == "Rem" and Library.Theme.Rem or
                 Name == "Asuka" and Vector2.new(415, 601) or
-                Name == "Pie" and Vector2.new(415, 601)
+                Name == "Pie" and Vector2.new(415, 609)
             )
 
             Anime.Size = (
@@ -872,7 +872,7 @@ do
                 Name == "Rem" and Vector2.new(390, 639) or
                 Name == "Violet" and Vector2.new(1029 / 3, 1497 / 3) or
                 Name == "Asuka" and Vector2.new(415, 601) or
-                Name == "Pie" and Vector2.new(415, 601)
+                Name == "Pie" and Vector2.new(415, 609)
             )
 
             Anime.Position = Vector2.new(Camera.ViewportSize.X - 400, Camera.ViewportSize.Y - Anime.Size.Y)
