@@ -492,7 +492,7 @@ do
         Library.Theme.Rem = Utility.AddImage("piehaxx/Assets/UI/Rem.png", "https://i.imgur.com/ykbRkhJ.png")
         Library.Theme.Violet = Utility.AddImage("piehaxx/Assets/UI/Violet.png", "https://i.imgur.com/7B56w4a.png")
         Library.Theme.Asuka = Utility.AddImage("piehaxx/Assets/UI/Asuka.png", "https://i.imgur.com/3hwztNM.png")
-        Library.Theme.Pie = Utility.AddImage("piehaxx/Assets/UI/Pie.png", "https://i.imgur.com/3hwztNM.png")
+        Library.Theme.Pie = Utility.AddImage("piehaxx/Assets/UI/Pie.png", "https://i.imgur.com/WVz4MyI.png")
         --
         Window.SetText(1, "Checking Assets")
         --
